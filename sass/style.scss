@@ -10,13 +10,20 @@ html {
 main {
     text-align: center;
     header h1 {
-        margin: 1.5em 0 2em 0;
+        margin: 1.5em 0 2.5em 0;
+        font-size: 3em;
+        font-variant: small-caps;
     }
     div.box .quote {
         margin-bottom: 1em;
         font-style: italic;
+        font-size: 1.3em;
+    }
+    div.box .author {
+        font-size: 1em;
     }
     div {
+        margin-top: 5em;
         button.trigger {
             display: block;
             margin: 0 auto 1.2em;
@@ -25,8 +32,9 @@ main {
             background: none;
             color: white;
             font-size: 1em;
-            width: 14%;
-            padding: 0.37em;
+            width: 16%;
+            padding: 0.5em;
+            cursor: pointer;
         }
         a {
             display: inline-block;
@@ -34,8 +42,8 @@ main {
             color: #FFFFFF;
             border: 1px solid white;
             border-radius: 12px;
-            width: 14%;
-            padding: 0.37em;
+            width: 16%;
+            padding: 0.5em;
             font-size: 1em;
             font-style: normal;
         }
